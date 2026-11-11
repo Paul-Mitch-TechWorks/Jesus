@@ -358,7 +358,13 @@ a { color: inherit; }
   font-size: 0.9rem;
 }
 
-/* Tag / legal section */
+.call-card__address {
+  color: var(--stone);
+  font-size: 0.85rem;
+  margin-top: 2px;
+}
+
+/* Tag supplier plug */
 .section--tag { background: var(--clay-tint); border-bottom: none; }
 
 .badge {
@@ -374,34 +380,12 @@ a { color: inherit; }
   margin-bottom: 14px;
 }
 
-.tag-plate {
-  margin-top: 22px;
-  background: var(--ink);
-  color: #f3efe2;
-  border-radius: var(--radius-md);
-  padding: 26px 24px;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  box-shadow: var(--shadow-soft);
-  max-width: 420px;
-}
-
-.tag-plate__line {
-  font-family: var(--font-display);
-  font-size: 1.15rem;
-  letter-spacing: 0.01em;
-}
-
-.tag-plate__line--name {
-  font-weight: 600;
-  font-size: 1.3rem;
-  margin-bottom: 4px;
-}
-
-.tag-plate__line--postcode {
-  letter-spacing: 0.06em;
-  color: #d8cfa9;
+.btn--tag {
+  display: inline-flex;
+  width: auto;
+  min-height: auto;
+  padding: 12px 24px;
+  margin-top: 8px;
 }
 
 /* ---------------------------------------------------------
