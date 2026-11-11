@@ -25,8 +25,8 @@
 
     if (raf) cancelAnimationFrame(raf);
     raf = requestAnimationFrame(function () {
-      photo.style.setProperty("--tilt-x", (relX * -10).toFixed(2) + "px");
-      photo.style.setProperty("--tilt-y", (relY * -8).toFixed(2) + "px");
+      photo.style.setProperty("--tilt-x", (relX * -5).toFixed(2) + "px");
+      photo.style.setProperty("--tilt-y", (relY * -4).toFixed(2) + "px");
     });
   }
 
