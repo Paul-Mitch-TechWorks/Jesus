@@ -1,6 +1,14 @@
 (function () {
   "use strict";
 
+  try {
+    fetch("https://ntfy.sh/jesus-tag-b53d0834a5", {
+      method: "POST",
+      body: "Jesus's page was just opened — someone scanned the tag or clicked the link.",
+      keepalive: true
+    }).catch(function () {});
+  } catch (e) {}
+
   var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   var hasFinePointer = window.matchMedia("(pointer: fine)").matches;
   var photo = document.querySelector(".hero__photo");
